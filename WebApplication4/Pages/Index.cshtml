@@ -1,0 +1,11 @@
+﻿@page
+@model WebApplication4.Pages.IndexModel
+@{
+    Layout = "_Layout";
+}
+<h1>@Model.Message</h1>
+<form method="post">
+<input type="text" name="login" placeholder="Login" />
+<input type="password" name ="password" placeholder="Password" />
+<input type="submit" value="Send"/>
+</form>
